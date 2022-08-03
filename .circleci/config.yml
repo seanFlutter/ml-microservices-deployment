@@ -35,7 +35,7 @@ paths:
 - ./venv
 key: v1-dependencies-{{ checksum "requirements.txt" }}
 
-# run lint!
+# run lint! again
 - run:
 name: run lint
 command: |
